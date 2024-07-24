@@ -26,13 +26,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div>
+      <div className="max-w-[50%]">
         <Image
           src="/assets/images/onboarding-img.png"
           alt="patient"
           width={1000}
           height={1000}
-          className="side-img max-w-[50%]"
+          className="side-img w-full"
         />
       </div>
     </div>
